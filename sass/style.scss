@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+$font: 'Lato', sans-serif;
+//Colors:
+$basecolor: #f1f1f3;
+$darkcolor: #71719a;
+$bluecolor: #8A9AA7;
+$yellowcolor: #fffdd9;
+$pinkcolor: #802C45;
+$lightblue: #9898B5;
+
+*{
+    font-family: $font;
+    text-align: center;
+}
+.margins {
+    margin: 40px auto;
+}
+body {
+    background-color: $basecolor;
+}
+svg {
+    height: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+    line {
+        stroke-width: 3;
+        stroke: $pinkcolor;
+    }
+}
+.prices .pricetags {
+    top: 80px;
+    border: 1px solid $bluecolor;
+    border-radius: 5px;
+    background-color: $bluecolor;
+    h5 {
+        margin: 2px;
+    }
+}
+.prices .placeholder {
+    margin-bottom: 35px;
+}
+footer .jumbotron {
+    padding: 20px 32px;
+}
+footer i {
+    margin: 0 5px;
+}
+.jumbotron {
+    margin-bottom: 0;
+    background-color: $bluecolor;
+    border-radius: 0;
+}
+.triangle {
+    width: 0;
+	height: 0;
+	border-top: 20px solid $pinkcolor;
+	border-right: 72vw solid transparent;
+}
+header {
+    .navbar {
+    background-color: $bluecolor;
+    }
+    .row {
+        background-color: $bluecolor;
+    }
+    a {
+        color:  black;
+    }
+    p {
+        padding-top: 12px;
+    }
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.download .col-lg-7 {
+    padding-left: 0;
+}
+.btn-primary {
+    background-color: $darkcolor;
+    border-color: $darkcolor;
+}
+.services, .quote, .prices , .icones, .updates, .download {
+    @extend .margins;
+}
+.p-padding {
+    padding: 10px 0;
+}
+.quote p {
+    padding: 35px 0;
+}
+.fixed-top {
+    left: auto;
+    right: auto;
+    border-radius: 4.8px;
+}
+.btn-primary:hover {
+    background-color: $lightblue;
+    border-color: $lightblue;
+}

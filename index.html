@@ -1,0 +1,504 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>First project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Karol Dabrowski">
+        <meta name="keywords" conetnt="project, javascript, bootstrap, html5, css3, sass">
+       
+        <!-- CSS Styles -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header id="home">
+            <div class="container-fluid">
+                <div class="container">
+                <div class="row justify-content-between align-items-baseline bordercurve">
+                    <div class="col-lg-2">
+                        <p><span>////</span> CoolPage</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <nav class="navbar navbar-expand-lg fixed-top">
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#netbook">About us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#services">Our Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#prices">Prices</a>
+                                    </li>                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="jumbotron">
+                    <h1>HTML5, SCSS & BOOTSTRAP</h1>
+                    <svg>
+                        <line x1="0" y1="0" x2="800" y2="0"/>
+                    </svg>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo neque, rhoncus.</p>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo neque, rhoncus.</p>
+                    <a class="btn btn-primary btn-lg" href="#services" role="button">Learn more</a>
+                </div>
+            </div>
+            </div>
+        </header>
+        <section class="netbook" id="netbook">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row justify-content-start">
+                            <div class="triangle img-responsive">
+                            </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-5">
+                            <h3>Simple page made with BS mainly</h3>
+                            <svg>
+                                <line x1="0" y1="0" x2="800" y2="0"/>
+                            </svg>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Pellentesque id ultricies est. Aliquam lectus turpis, ornare 
+                                eget fringilla eu, convallis eget lectus. Vestibulum id ornare.
+                                Pellentesque id ultricies est.</p>
+                            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#firstModal" id="firstmdlbtn">MSG Me!</button>
+                        </div>
+                        <div class="col-md-7">
+                                <figure class="figure">
+                                    <img src="images/macbook.jpeg" class="figure-img img-fluid rounded" alt="just a macbook picture">
+                                </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="firstModalLabel">New message</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="md-form">
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="md-form">
+                                    <textarea type="text" id="message-text" class="form-control md-textarea" rows="3" ></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+        </section>
+        <section class="services" id="services">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <h3>Our services</h3>
+                            <svg>
+                                <line x1="0" y1="0" x2="800" y2="0"/>
+                            </svg>
+                            <p class="p-padding">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id ultricies est. 
+                            Aliquam lectus turpis, ornare eget fringilla eu, convallis eget lectus. Vestibulum id ornare.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-6">
+                            <i class="fas fa-headphones fa-4x"></i>
+                            <div class="w-100"></div>
+                            <p>Sounds good</p>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <i class="fas fa-battery-full fa-4x"></i>
+                            <div class="w-100"></div>
+                            <p>Fully charged</p>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <i class="fas fa-sliders-h fa-4x"></i>
+                            <div class="w-100"></div>
+                            <p>Adjustable</p>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <i class="fas fa-check fa-4x"></i>
+                            <div class="w-100"></div>
+                            <p>All nice and clear</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="quote" id="quote">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <i class="fas fa-quote-left fa-4x"></i> 
+                    </div>
+                    <div class="row justify-content-center">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Proin gravida rhoncus ante volutpat ullamcorper. 
+                            Vestibulum interdum ultricies hendrerit. 
+                            Aliquam pretium sed tellus ut sodales. 
+                            Duis porta sem nec dapibus volutpat. Suspendisse placerat nibh nec efficitur pretium. 
+                            Nullam tempor quis orci at pharetra. Sed viverra augue.</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <i class="fas fa-quote-right fa-4x"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="prices" id="prices">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <h3>Check our prices</h3>
+                            <svg>
+                                <line x1="0" y1="0" x2="800" y2="0"/>
+                            </svg>
+                            <div class="w-100"></div>
+                            <p class="p-padding">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Proin gravida rhoncus ante volutpat ullamcorper. Vestibulum interdum ultricies hendrerit. 
+                                Aliquam pretium sed tellus ut sodales. </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-3 col-6">
+                            <div class="row justify-content-center position-relative">
+                                <h3>15$</h3>
+                                <div class="w-100"></div>
+                                <p>per month</p>
+                                <div class="position-absolute align-content-center pricetags">
+                                    <h5>STANDARD</h5>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="position-sticky">
+                                    <p class="placeholder"> </p>
+                                    <p>Pierwszy</p>
+                                    <p>Drugi</p>
+                                    <p>Trzeci</p>
+                                    <p>Czwarty</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="row justify-content-center position-relative">
+                                <h3>15$</h3>
+                                <div class="w-100"></div>
+                                <p>per month</p>
+                                <div class="position-absolute align-content-center pricetags">
+                                    <h5>STANDARD</h5>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="position-sticky">
+                                    <p class="placeholder"> </p>
+                                    <p>Pierwszy</p>
+                                    <p>Drugi</p>
+                                    <p>Trzeci</p>
+                                    <p>Czwarty</p>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-md-3 col-6">
+                            <div class="row justify-content-center position-relative">
+                                <h3>15$</h3>
+                                <div class="w-100"></div>
+                                <p>per month</p>
+                                <div class="position-absolute align-content-center pricetags">
+                                    <h5>STANDARD</h5>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="position-sticky">
+                                    <p class="placeholder"> </p>
+                                    <p>Pierwszy</p>
+                                    <p>Drugi</p>
+                                    <p>Trzeci</p>
+                                    <p>Czwarty</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="row justify-content-center position-relative">
+                                <h3>15$</h3>
+                                <div class="w-100"></div>
+                                <p>per month</p>
+                                <div class="position-absolute align-content-center pricetags">
+                                    <h5>STANDARD</h5>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="position-sticky">
+                                    <p class="placeholder"> </p>
+                                    <p>Pierwszy</p>
+                                    <p>Drugi</p>
+                                    <p>Trzeci</p>
+                                    <p>Czwarty</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="icons" id="icons">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3 ">
+                                        <i class="fab fa-adversal fa-3x"></i>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h5>Your ad here</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida rhoncus ante volutpat ullamcorper. 
+                                        Vestibulum interdum ultricies hendrerit.  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3">
+                                        <i class="fab fa-adversal fa-3x"></i>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h5>Your ad here</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida rhoncus ante volutpat ullamcorper. 
+                                        Vestibulum interdum ultricies hendrerit.  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3">
+                                        <i class="fab fa-adversal fa-3x"></i>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h5>Your ad here</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida rhoncus ante volutpat ullamcorper. 
+                                        Vestibulum interdum ultricies hendrerit.  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3">
+                                        <i class="fab fa-adversal fa-3x"></i>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h5>Your ad here</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida rhoncus ante volutpat ullamcorper. 
+                                        Vestibulum interdum ultricies hendrerit.  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3">
+                                        <i class="fab fa-adversal fa-3x"></i>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h5>Your ad here</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida rhoncus ante volutpat ullamcorper. 
+                                        Vestibulum interdum ultricies hendrerit.  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3">
+                                        <i class="fab fa-adversal fa-3x"></i>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h5>Your ad here</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida rhoncus ante volutpat ullamcorper. 
+                                        Vestibulum interdum ultricies hendrerit.  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="joinus" id="joinus">
+            <div class="container-fluid">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <h1>BECOME A PART OF COMMUNITY</h1>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="updates" id="updates">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <h3>Our latest updates</h3>
+                            <svg>
+                                <line x1="0" y1="0" x2="800" y2="0"/>
+                            </svg>
+                            <p class="p-padding">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida rhoncus ante volutpat ullamcorper. 
+                                Vestibulum interdum ultricies hendrerit. </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <figure class="figure">
+                                <img src="images/work1.jpeg" class="figure-img img-fluid rounded" alt="Some photo">
+                                <figcaption class="figure-caption"><p>A caption for the above image.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4">
+                            <figure class="figure">
+                                <img src="images/work1.jpeg" class="figure-img img-fluid rounded" alt="Some photo">
+                                <figcaption class="figure-caption"><p>A caption for the above image.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4">
+                            <figure class="figure">
+                                <img src="images/work1.jpeg" class="figure-img img-fluid rounded" alt="Some photo">
+                                <figcaption class="figure-caption"><p>A caption for the above image.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center" id="secondrow">
+                        <div class="col-md-4">
+                            <figure class="figure">
+                                <img src="images/work1.jpeg" class="figure-img img-fluid rounded" alt="Some photo">
+                                <figcaption class="figure-caption"><p>A caption for the above image.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4">
+                            <figure class="figure">
+                                <img src="images/work1.jpeg" class="figure-img img-fluid rounded" alt="Some photo">
+                                <figcaption class="figure-caption"><p>A caption for the above image.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4">
+                            <figure class="figure">
+                                <img src="images/work1.jpeg" class="figure-img img-fluid rounded" alt="Some photo">
+                                <figcaption class="figure-caption"><p>A caption for the above image.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <button class="btn btn-primary" id="showhide">Show more</button>
+                            <div class="w-100"></div>
+                            <i class="fas fa-angle-down fa-2x" id="angle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="text-bottom">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="jumbotron">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h3>Some header</h3>
+                                <svg>
+                                    <line x1="0" y1="0" x2="800" y2="0"/>
+                                </svg>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida rhoncus ante volutpat ullamcorper. 
+                                    Vestibulum interdum ultricies hendrerit. Aliquam pretium sed tellus ut sodales. Duis porta sem nec dapibus volutpat. 
+                                    Suspendisse placerat nibh nec efficitur pretium. Nullam tempor quis orci at pharetra. 
+                                    Sed viverra augue. Proin gravida rhoncus ante volutpat ullamcorper.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="download">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-md-7">
+                            <img src="images/website.jpeg" class="img-fluid rounded" alt="Responsive image">
+                        </div>
+                        <div class="col-md-5">
+                            <h3>Another header</h3>
+                            <svg>
+                                <line x1="0" y1="0" x2="800" y2="0"/>
+                            </svg>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida rhoncus ante volutpat ullamcorper. 
+                                    Vestibulum interdum ultricies hendrerit. Aliquam pretium sed tellus ut sodales. Duis porta sem nec dapibus volutpat. 
+                                    Suspendisse placerat nibh nec efficitur pretium. Nullam tempor quis orci at pharetra. 
+                                    Sed viverra augue. Proin gravida rhoncus ante volutpat ullamcorper.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="jumbotron">
+                        <div class="row justify-content-between align-items-baseline">
+                            <div class="col-md-3">
+                                <p>©2018 Karol Dąbrowski</p>
+                            </div>
+                            <div class="col-md-6">
+                                <span>Find me here:</span>
+                                <i class="fab fa-github fa-3x"></i>
+                                <i class="fab fa-linkedin-in fa-3x"></i>
+                                <i class="fab fa-facebook-square fa-3x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
