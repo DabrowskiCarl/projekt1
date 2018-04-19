@@ -99,3 +99,11 @@ header {
     background-color: $lightblue;
     border-color: $lightblue;
 }
+footer {
+    a {
+        color: $basecolor;
+    }
+    a:hover {
+        color: $basecolor;
+    }
+}

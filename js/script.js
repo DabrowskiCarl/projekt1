@@ -18,6 +18,16 @@ $(function() {
 
     $('#firstModal').on('hidden.bs.modal', function () {
         $('#firstmdlbtn').text('Thank You');
-    })
+    });
+
+    $('.fa-github').hover(function(){
+        $(this).toggleClass('fa-4x');
+    });
+    $('.fa-linkedin-in').hover(function(){
+        $(this).toggleClass('fa-4x');
+    });
+    $('.fa-facebook-square').hover(function(){
+        $(this).toggleClass('fa-4x');
+    });
 });
 
